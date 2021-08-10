@@ -23,9 +23,4 @@ namespace GeneralStore.MVC.Models
         [Display(Name="It is food")]
         public bool IsFood { get; set; }
     }
-
-    public class ProductDbContext : DbContext
-    {
-        public DbSet<Product> Products { get; set; }
-    }
 }
